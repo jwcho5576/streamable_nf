@@ -6,6 +6,7 @@ Junwoo Cho\*, Seungtae Nam\*, Daniel Rho, [Jong Hwan Ko](http://iris.skku.edu/#h
 \* Equal contribution.<br>
 &dagger; Corresponding author.
 
+European Conference on Computer Vision (ECCV), 2022
 
 ## Requirements
 Setup a conda environment using commands below:
@@ -49,3 +50,5 @@ bash scripts/train_sdf_spectral.sh
 You can find both qualitative and quantitative results in \results directory.
 
 ## Citation
+'''
+'''
