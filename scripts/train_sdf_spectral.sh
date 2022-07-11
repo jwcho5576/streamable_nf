@@ -1,0 +1,1 @@
+python main.py --experiment sdf_spectral --model progressive --shape_data dragon --widths 148 240 309 --n_hidden_layers 3 --epochs 15000 --lr 1e-4

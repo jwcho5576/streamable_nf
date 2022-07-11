@@ -1,0 +1,3 @@
+python main.py --experiment video_temporal --model progressive --uvg_data ReadySetGo --widths 296 479 619 --n_hidden_layers 5 --lr 1e-4 --epochs 50000
+python main.py --experiment video_temporal --model slimmable --uvg_data ReadySetGo --widths 296 419 512 --n_hidden_layers 5 --lr 1e-4 --epochs 50000
+python main.py --experiment video_temporal --model individual --uvg_data ReadySetGo --widths 296 296 296 --n_hidden_layers 5 --lr 1e-4 --epochs 50000
