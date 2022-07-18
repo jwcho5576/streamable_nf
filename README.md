@@ -3,7 +3,7 @@
 ### [Paper link]
 
 Junwoo Cho\*, Seungtae Nam\*, Daniel Rho, [Jong Hwan Ko](http://iris.skku.edu/#hero), [Eunbyung Park](https://silverbottlep.github.io/)&dagger;<br>
-\* Equal contribution.<br>
+\* Equal contribution, alphabetically ordered.<br>
 &dagger; Corresponding author.
 
 European Conference on Computer Vision (ECCV), 2022
