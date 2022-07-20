@@ -37,6 +37,7 @@ if __name__=='__main__':
     # etc.
     parser.add_argument('--seed', type=int, default=100, help='random seed')
     parser.add_argument('--gpu_id', type=int, default=0, help='gpu id')
+    parser.add_argument('--total_frames', type=int, default=24, help='number of total frames to reconstruct')
     parser.add_argument('--frame_batchsize', type=int, default=1, help='number of frames to process in parallel')
     parser.add_argument('--pointcloud_batchsize', type=int, default=131072, help='batch size for point cloud')
 

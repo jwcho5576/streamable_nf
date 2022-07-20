@@ -6,6 +6,7 @@ import torch
 from PIL import Image
 from torch.utils.data import Dataset
 from torchvision import transforms
+import cv2
 
 
 class Kodak():
@@ -53,6 +54,19 @@ class UVG():
         self.device = device
 
         # create frames
+        if not os.path.isfile(f'./data/uvg/{name}/{name}_0.jpg'):
+            print('creating frames...')
+            os.makedirs(f'./data/uvg/{name}', exist_ok=True)
+            vidcap = cv2.VideoCapture(f'./data/uvg/{name}.mp4')
+            success, image = vidcap.read()
+            count = 0
+            while success:
+                cv2.imwrite(f"./data/uvg/{name}/{name}_%d.jpg" % count, image)   
+                success,image = vidcap.read()
+                # print('Read a new frame: ', success)
+                count += 1
+                if count == 24:
+                    break
 
         frames = sorted(glob.glob(os.path.join(f'./data/uvg/{name}', f'{name}_*.jpg')))
 
