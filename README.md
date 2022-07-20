@@ -21,8 +21,24 @@ Download Kodak dataset from [here](http://www.cs.albany.edu/~xypan/research/snr/
 Download UVG dataset from [here](http://ultravideo.fi/#testsequences).
 
 Download 3D point cloud dataset from [here].
+
+Set the data directories like below:
+
+##### Data layout
 ```
-directory structure
+data/
+    kodak/
+        kodim01.png
+        ...
+        kodim24.png
+    shape/
+        armadillo.xyz
+        dragon.xyz
+        happy_buddha.xyz
+    uvg/
+        Beauty.mp4
+        ...
+        YachtRide
 ```
 
 ## Reproducing experiments
