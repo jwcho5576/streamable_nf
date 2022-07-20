@@ -52,6 +52,8 @@ class UVG():
         self.args = args
         self.device = device
 
+        # create frames
+
         frames = sorted(glob.glob(os.path.join(f'./data/uvg/{name}', f'{name}_*.jpg')))
 
         self.n_frames = len(frames)
