@@ -72,7 +72,3 @@ bash scripts/train_sdf_spectral.sh
 
 ## 3. Results
 You can find both qualitative and quantitative results in \results directory.
-
-## Citation
-coming soon
-
