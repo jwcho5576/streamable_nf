@@ -20,10 +20,10 @@ Download Kodak dataset from [here](http://www.cs.albany.edu/~xypan/research/snr/
 
 Download UVG dataset from [here](http://ultravideo.fi/#testsequences).<br>
 When downloading UVG video, please use this version:<br>
--Resolution: 1080p<br>
--Bit depth: 8<br>
--Format: AVC<br>
--Container: MP4<br>
+* Resolution: 1080p<br>
+* Bit depth: 8<br>
+* Format: AVC<br>
+* Container: MP4<br>
 
 Download 3D point cloud dataset from [here](https://drive.google.com/drive/u/0/folders/0AJnNb2YwsTVeUk9PVA).
 
