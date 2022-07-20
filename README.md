@@ -1,6 +1,6 @@
 # Streamable Neural Fields
 
-### [Paper link]
+### [Paper link (coming soon)]
 
 Junwoo Cho\*, Seungtae Nam\*, Daniel Rho, [Jong Hwan Ko](http://iris.skku.edu/#hero), [Eunbyung Park](https://silverbottlep.github.io/)&dagger;<br>
 \* Equal contribution, alphabetically ordered.<br>
