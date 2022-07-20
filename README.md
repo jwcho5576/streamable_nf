@@ -47,6 +47,9 @@ data/
 ```
 
 ## 2. Reproducing experiments
+
+Run the commands below.
+
 ### Image spectral growing
 ```
 bash scripts/train_image_spectral.sh
