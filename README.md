@@ -8,21 +8,21 @@ Junwoo Cho\*, Seungtae Nam\*, Daniel Rho, [Jong Hwan Ko](http://iris.skku.edu/#h
 
 European Conference on Computer Vision (ECCV), 2022
 
-## Requirements
+## 0. Requirements
 Setup a conda environment using commands below:
 ```
 conda env create -f environment.yml
 conda activate snf
 ```
 
-## Dataset
+## 1. Dataset
 Download Kodak dataset from [here](http://www.cs.albany.edu/~xypan/research/snr/Kodak.html).
 
 Download UVG dataset from [here](http://ultravideo.fi/#testsequences).
 
 Download 3D point cloud dataset from [here].
 
-Set the data directories like below:
+'data/' directory must be in your working directory. The structure is as follows:
 
 ##### Data layout
 ```
@@ -41,7 +41,7 @@ data/
         YachtRide
 ```
 
-## Reproducing experiments
+## 2. Reproducing experiments
 ### Image spectral growing
 ```
 bash scripts/train_image_spectral.sh
@@ -62,7 +62,7 @@ bash scripts/train_video_temporal.sh
 bash scripts/train_sdf_spectral.sh
 ```
 
-## Results
+## 3. Results
 You can find both qualitative and quantitative results in \results directory.
 
 ## Citation
