@@ -25,7 +25,7 @@ When downloading UVG video, please use this version:<br>
 * Format: AVC<br>
 * Container: MP4<br>
 
-Download 3D point cloud dataset from [here](https://drive.google.com/drive/u/0/folders/0AJnNb2YwsTVeUk9PVA).
+Download 3D point cloud dataset from [here](https://drive.google.com/drive/u/1/folders/1-K2460VPEvwk9CtIkjcMzia2OKY_l_7c).
 
 'data/' directory must be in your working directory. The structure is as follows:
 
