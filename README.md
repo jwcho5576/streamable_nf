@@ -18,9 +18,14 @@ conda activate snf
 ## 1. Dataset
 Download Kodak dataset from [here](http://www.cs.albany.edu/~xypan/research/snr/Kodak.html).
 
-Download UVG dataset from [here](http://ultravideo.fi/#testsequences).
+Download UVG dataset from [here](http://ultravideo.fi/#testsequences).<br>
+When downloading UVG video, please use this version:<br>
+-Resolution: 1080p<br>
+-Bit depth: 8<br>
+-Format: AVC<br>
+-Container: MP4<br>
 
-Download 3D point cloud dataset from [here].
+Download 3D point cloud dataset from [here](https://drive.google.com/drive/u/0/folders/0AJnNb2YwsTVeUk9PVA).
 
 'data/' directory must be in your working directory. The structure is as follows:
 
@@ -38,7 +43,7 @@ data/
     uvg/
         Beauty.mp4
         ...
-        YachtRide
+        YachtRide.mp4
 ```
 
 ## 2. Reproducing experiments
@@ -66,5 +71,5 @@ bash scripts/train_sdf_spectral.sh
 You can find both qualitative and quantitative results in \results directory.
 
 ## Citation
-'''
-''' 
+coming soon
+
