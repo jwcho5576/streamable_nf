@@ -9,8 +9,9 @@ Junwoo Cho\*, Seungtae Nam\*, Daniel Rho, [Jong Hwan Ko](http://iris.skku.edu/#h
 European Conference on Computer Vision (ECCV), 2022
 
 ## Overview
-<img src = "https://user-images.githubusercontent.com/94037424/187126532-4f0f88eb-331d-47ce-ad0f-fe20ad58d032.png" width="80%" height="80%">
-"Berliner Philharmoniker" &copyStephan Rabold
+<img src = "https://user-images.githubusercontent.com/94037424/188373585-3ad09a56-9bc5-497c-8b11-65a0aa82b5fa.png" width="80%" height="80%">
+
+"Berliner Philharmoniker" &copy; Stephan Rabold
 
 ## 0. Requirements
 Setup a conda environment using commands below:
