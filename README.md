@@ -77,3 +77,15 @@ bash scripts/train_sdf_spectral.sh
 
 ## 3. Results
 You can find both qualitative and quantitative results in \results directory.
+
+## Citation
+```
+@inproceedings{cho2022streamable,
+  title={Streamable neural fields},
+  author={Cho, Junwoo and Nam, Seungtae and Rho, Daniel and Ko, Jong Hwan and Park, Eunbyung},
+  booktitle={European Conference on Computer Vision},
+  pages={595--612},
+  year={2022},
+  organization={Springer}
+}
+```
